@@ -1,39 +1,59 @@
 body {
-  background-image: url('https://i.ibb.co/WnDmpQz/65526ddf6e7b491b9afb263471067e5c.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: url('https://i.ibb.co/WnDmpQz/65526ddf6e7b491b9afb263471067e5c.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-.style-h1{
-  color: white;
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.circular-image {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    object-fit: cover; /* Para manter a proporção da imagem */
+    margin: 20px 0; /* Espaçamento entre as imagens */
+}
+
+.style-h1 {
+    color: white;
 }
 
 .style-p {
-  color: white;
+    color: white;
 }
 
 p {
-  color: white;
-  background-color: #69696999;
-  border-radius: 10px;
-}
-
-img {
-  border-radius: 500px;
+    color: white;
+    background-color: rgba(105, 105, 105, 0.6); /* Cor de fundo com transparência */
+    border-radius: 10px;
+    padding: 10px; /* Adiciona um pouco de espaço interno */
 }
 
 h3 {
-  color: white;
- font-family: Georgia;
+    color: white;
+    font-family: Georgia;
 }
 
 button {
-  background-color: cyan;
-  height: 100px;
-  width: 300px;
-  border-radius: 10px 10px 10px 10px;
+    background-color: cyan;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px 0; /* Espaçamento entre os botões */
 }
 
 a {
-  color: black;
+    color: black;
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; /* Faz o link ocupar todo o botão */
+    height: 100%; /* Faz o link ocupar toda a altura do botão */
+    width: 100%; /* Faz o link ocupar toda a largura do botão */
+    line-height: 100px; /* Centraliza o texto verticalmente */
 }
