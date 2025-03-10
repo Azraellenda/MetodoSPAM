@@ -29,4 +29,6 @@
       <img src="https://i.ibb.co/tqmsSv7/Picsart-24-12-01-14-17-23-894.jpg" width="400" height="400"><br>
       <h3 class="sub-title">RECRUTAMENTO LØS</h3>
       <p>Aqui a baixo estará nosso grupo de recrutamento!</p>
-      <button><a href="https://chat.whatsapp.com/G82FPS0Lo8X8ZNqpnlTKV2"></a><strong>RECRUTAMENTO</strong></button></body></html>
+      <button><a href="https://chat.whatsapp.com/G82FPS0Lo8X8ZNqpnlTKV2"></a><strong>RECRUTAMENTO</strong></button>
+      </body>
+      </html>
