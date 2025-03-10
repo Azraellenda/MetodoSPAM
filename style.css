@@ -18,7 +18,8 @@ body {
     height: 150px; /* Tamanho padrão menor */
     border-radius: 50%; /* Faz a imagem circular */
     object-fit: cover; /* Para manter a proporção da imagem */
-    margin: 20px 0; /* Espaçamento entre as imagens */
+    margin: 20px auto; /* Espaçamento entre as imagens e centralização */
+    display: block; /* Faz a imagem ser um bloco para centralizar */
 }
 
 .style-h1 {
@@ -46,7 +47,8 @@ button {
     height: 100px;
     width: 300px;
     border-radius: 10px;
-    margin: 10px 0; /* Espaçamento entre os botões */
+    margin: 10px auto; /* Espaçamento entre os botões e centralização */
+    display: block; /* Faz o botão ser um bloco para centralizar */
 }
 
 a {
