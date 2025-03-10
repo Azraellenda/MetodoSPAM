@@ -14,9 +14,9 @@ body {
 }
 
 .circular-image {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
-    height: 200px; /* Ajuste o tamanho conforme necessário */
-    border-radius: 50%;
+    width: 150px; /* Tamanho padrão menor */
+    height: 150px; /* Tamanho padrão menor */
+    border-radius: 50%; /* Faz a imagem circular */
     object-fit: cover; /* Para manter a proporção da imagem */
     margin: 20px 0; /* Espaçamento entre as imagens */
 }
