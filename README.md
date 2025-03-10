@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
  <html lang="pt-BR">
     <head>
       <title>Azrael Divulgação</title>
@@ -31,5 +31,5 @@
       <h3 class="sub-title">RECRUTAMENTO LØS</h3>
       <p>Aqui a baixo estará nosso grupo de recrutamento!</p>
       <button><a href="https://chat.whatsapp.com/G82FPS0Lo8X8ZNqpnlTKV2"></a><strong>RECRUTAMENTO</strong></button>
-    </body>
-  </html>
+     </body>
+   </html>
