@@ -3,7 +3,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azrael Divulgação</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000000; /* Fundo preto para destacar o neon */
+            color: #8A2BE2; /* Roxo neon */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #8A2BE2;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #8A2BE2, 0 0 40px #8A2BE2; /* Glow neon */
+            background-color: rgba(138, 43, 226, 0.1); /* Fundo semi-transparente roxo */
+        }
+
+        h1.style-h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 10px #8A2BE2, 0 0 20px #8A2BE2, 0 0 30px #8A2BE2; /* Glow neon */
+            margin-bottom: 20px;
+        }
+
+        h3.sub-title {
+            font-size: 1.8em;
+            text-shadow: 0 0 10px #8A2BE2, 0 0 20px #8A2BE2; /* Glow neon */
+            margin-top: 20px;
+        }
+
+        p.style-p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-shadow: 0 0 5px #8A2BE2; /* Glow sutil */
+            margin: 20px 0;
+        }
+
+        .circular-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #8A2BE2;
+            box-shadow: 0 0 15px #8A2BE2, 0 0 30px #8A2BE2; /* Glow neon nas imagens */
+            margin: 20px auto;
+            display: block;
+        }
+
+        button {
+            background-color: #8A2BE2;
+            color: #000000;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 0 10px #8A2BE2, 0 0 20px #8A2BE2; /* Glow neon */
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            box-shadow: 0 0 20px #8A2BE2, 0 0 40px #8A2BE2, 0 0 60px #8A2BE2; /* Glow mais intenso no hover */
+            transform: scale(1.05);
+        }
+
+        button a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        br {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -43,3 +122,4 @@
     </div>
 </body>
 </html>
+
