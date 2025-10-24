@@ -5,14 +5,18 @@
     <title>Azrael Divulgação</title>
     <style>
         body {
-            background-color: #000000; /* Fundo preto para destacar o neon */
-            color: #8A2BE2; /* Roxo neon */
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-            overflow-x: hidden;
-        }
+    background-image: url('https://i.ibb.co/0yMLcVNC/bc4af6949f0f5425e24fd691e46392f7.jpg'); /* Substitua pelo link direto da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: #8A2BE2; /* Roxo neon */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
 
         .container {
             max-width: 800px;
