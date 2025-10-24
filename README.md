@@ -32,12 +32,22 @@
             font-size: 2.5em;
             text-shadow: 0 0 10px #8A2BE2, 0 0 20px #8A2BE2, 0 0 30px #8A2BE2; /* Glow neon */
             margin-bottom: 20px;
+            backdrop-filter: blur(5px); /* Borrão atrás do texto */
+            background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente para legibilidade */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block; /* Para que o fundo se ajuste ao texto */
         }
 
         h3.sub-title {
             font-size: 1.8em;
             text-shadow: 0 0 10px #8A2BE2, 0 0 20px #8A2BE2; /* Glow neon */
             margin-top: 20px;
+            backdrop-filter: blur(5px); /* Borrão atrás do texto */
+            background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente para legibilidade */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block; /* Para que o fundo se ajuste ao texto */
         }
 
         p.style-p {
@@ -45,6 +55,10 @@
             line-height: 1.6;
             text-shadow: 0 0 5px #8A2BE2; /* Glow sutil */
             margin: 20px 0;
+            backdrop-filter: blur(5px); /* Borrão atrás do texto */
+            background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente para legibilidade */
+            padding: 10px;
+            border-radius: 5px;
         }
 
         .circular-image {
@@ -103,7 +117,7 @@
         <br>
         <h3 class="sub-title">MEU WHATSAPP</h3>
         <br>
-        <p>Aqui você pode estar me chamando para tirar mais dúvidas e etc!</p>
+        <p class="style-p">Aqui você pode estar me chamando para tirar mais dúvidas e etc!</p>
         <br>
         <button><a href="https://api.whatsapp.com/send?phone=553191365558&text1=Ola%20Azrael%20eu%20sou%20(SEU%20NOME)"><strong>MEU WHATSAPP</strong></a></button>
         <br>
@@ -111,7 +125,7 @@
         <br>
         <h3 class="sub-title">MEU MÉTODO DE BAN</h3>
         <br>
-        <p>Abaixo estará o link de vendas do meu método privado de banimento.</p>
+        <p class="style-p">Abaixo estará o link de vendas do meu método privado de banimento.</p>
         <br>
         <button><a href="https://api.whatsapp.com/send?phone=553191365558&text1=Oi%20Azrael%20eu%20sou%20(SEU%20NOME)%20eu%20gostaria%20de%20saber%20mais%20sobre%20o%20metodo%20de%20banimento."><strong>MEU MÉTODO</strong></a></button>
         <br>
@@ -126,4 +140,3 @@
     </div>
 </body>
 </html>
-
